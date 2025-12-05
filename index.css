@@ -371,12 +371,16 @@ nav label,nav input{
     color: white;
     padding-top: 7px;
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     display: inline-block;
     background-color: rgb(30 41 79);
     width: 168px;
     height: 150px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:35px ;
 }
 .icon1{
     transform: rotate(18deg);
@@ -393,12 +397,20 @@ nav label,nav input{
     background-color: rgb(30 41 79);
 
 }
+.icon2>i{
+    transform: rotate(307deg);
+    padding: 16px;
+}
 .icon3{
     transform: rotate(94deg);
     top: 217px;
     right: -8px;
     clip-path: polygon(0% 7%, 25% 2%, 50% 0%, 75% 2%, 100% 9%, 100% 83%, 50% 72%, 38% 75%);
     background-color: rgb(30 41 79);
+}
+.icon3>i{
+    transform: rotate(267deg);
+    padding: 14px;
 }
 .icon4{
     padding: 50px 29px 0px 0px;
@@ -409,6 +421,10 @@ nav label,nav input{
     right: 10px;
     clip-path: polygon(0% 0%, 96% 15%, 92% 25%, 79% 50%, 55% 78%, 25% 96%, 0% 105%);
     background-color: rgb(30 41 79);
+}
+.icon4>i{
+    transform: rotate(3deg);
+    padding:0px 14px 35px;
 }
 
 
