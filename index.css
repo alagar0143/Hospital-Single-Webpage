@@ -121,6 +121,30 @@ nav label,nav input{
     display: unset;
 }
 }
+/* ---------------------------------    Book Appoiments     ----------------------------------------- */
+
+.book-apoi{
+    width: 0px;
+    height:0px;
+    overflow: hidden;
+    position: absolute;
+    background-color: #0e795a;
+    /* z-index: 9; */
+    transition: all 1s;
+    cursor: pointer;
+}
+.book-apoi button{
+    width: fit-content;
+    padding: 0 40px 0 20px;
+    transition: all 1s;
+}
+.book-apoi button:hover{
+    background: #05a542;
+}
+.book-apoi i{
+    padding-left: 20px;
+}
+
 /*------------------------------------------------          4-Box           ----------------------------------------------------*/
 .my-box{
     width:90%;

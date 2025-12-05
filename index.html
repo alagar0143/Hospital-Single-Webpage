@@ -23,19 +23,19 @@
                 <a href="">
                     <h3> HOSPITAL </h3>
                 </a>
-            </div>   
+            </div>
             <input type="checkbox" id="bar" />
             <label for="bar">
                 <i class="fa-solid fa-bars fs-1"></i>
             </label>
             <div class="head d-flex justify-content-center gap-sm-5 gap-2">
-            <a href="#home"> Home </a>
-            <a href="#About"> About Us </a>
-            <a href="#Department"> Departments </a>
-            <a href="#Doctor"> Doctors </a>
-            <a href="#Service"> Services </a>
-            <a href="#Appoinment"> Appointments </a>
-            <a href="#Contact"> Contact Us </a>
+                <a href="#home"> Home </a>
+                <a href="#About"> About Us </a>
+                <a href="#Department"> Departments </a>
+                <a href="#Doctor"> Doctors </a>
+                <a href="#Service"> Services </a>
+                <a href="#Appoinment"> Appointments </a>
+                <a href="#Contact"> Contact Us </a>
             </div>
         </nav>
         <div class="home d-flex ps-md-5" id="home">
@@ -49,9 +49,46 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel necessitatibus at aperiam placeat, eius
                     neque!
                 </p>
-                <button>
+                <button class="bo-ap" onclick="demo()">
                     Book Appointments
                 </button>
+                <div class="book-apoi">
+                    <form class="d-grid">
+                        <div>
+                            <label for=""> Name </label></br></br>
+                            <input type="text" name="name">
+                        </div>
+                        <div>
+                            <label for=""> Phone Number </label></br></br>
+                            <input type="number" name="Pnumber">
+                        </div>
+                        <div>
+                            <label for=""> Medical Record Number </label></br></br>
+                            <input class="w-100" type="text" name="record-number">
+                        </div>
+                        <div>
+                            <label for=""> Reason For Visit </label></br></br>
+                            <input type="text" name="Reason for visit">
+                        </div>
+                        <div>
+                            <label for=""> Department </label></br></br>
+                            <input type="text" name="Department">
+                        </div>
+                        <div>
+                            <label for=""> Perferred Date </label></br></br>
+                            <input type="text" name="Perferred-Date">
+                        </div>
+                        <div>
+                            <label for=""> Perferred Time </label></br></br>
+                            <input type="text" name="Perferred-Time">
+                        </div>
+                        <a href="#">
+                            <button onclick="sumit()"> Sumit
+                                <i class="fa-solid fa-arrow-right" ></i>
+                            </button>
+                        </a>
+                    </form>
+                </div>
             </section>
             <section class="w-50 d-flex align-items-center justify-content-center ">
                 <img src="./img/pro-1.jpg" alt="">
@@ -133,7 +170,8 @@
                             Hospital Departments
                         </h5>
                         <p>
-                            Fornale surgeons umbilical herria refef. Trusted care for women's heath issues
+                            A hospital department is a specialized division providing focused care
+                            (IT, HR, Labs) for overall health services
                         </p>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
@@ -142,7 +180,7 @@
                             Medical Specialty Departments
                         </h5>
                         <p>
-                            Fornale surgeons umbilical herria refef. Trusted care for women's heath issues
+                            A medical specialty department is a specific branch of medicine focusing on a distinct area, organ, or type of care.
                         </p>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
@@ -151,7 +189,7 @@
                             Surgical Departments
                         </h5>
                         <p>
-                            Fornale surgeons umbilical herria refef. Trusted care for women's heath issues
+                            Hospital departments specializing in operative procedures across various bodily systems
                         </p>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
@@ -160,7 +198,7 @@
                             Diagnostic Departments
                         </h5>
                         <p>
-                            Fornale surgeons umbilical herria refef. Trusted care for women's heath issues
+                           Diagnostic departments use specialized tests like imaging and labs to find illnesses.
                         </p>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
@@ -403,49 +441,49 @@
         <!------------------------------------          Appoinment             ---------------------------->
 
         <div class="appoinment">
-            <h1 id="Appoinment">    Appoinment </h1>
+            <h1 id="Appoinment"> Appoinment </h1>
             <section>
                 <form class="d-grid">
                     <div>
-                        <label for="">  Name    </label></br></br>
+                        <label for=""> Name </label></br></br>
                         <input type="text" name="name">
                     </div>
                     <div>
-                        <label for="">  Phone Number    </label></br></br>
+                        <label for=""> Phone Number </label></br></br>
                         <input type="number" name="Pnumber">
                     </div>
                     <div>
-                        <label for="">  Medical Record Number    </label></br></br>
-                        <input  class="w-100" type="text" name="record-number">
+                        <label for=""> Medical Record Number </label></br></br>
+                        <input class="w-100" type="text" name="record-number">
                     </div>
                     <div>
-                        <label for="">  Reason For Visit    </label></br></br>
+                        <label for=""> Reason For Visit </label></br></br>
                         <input type="text" name="Reason for visit">
                     </div>
                     <div>
-                        <label for="">  Department    </label></br></br>
+                        <label for=""> Department </label></br></br>
                         <input type="text" name="Department">
                     </div>
                     <div>
-                        <label for="">  Perferred Date    </label></br></br>
+                        <label for=""> Perferred Date </label></br></br>
                         <input type="text" name="Perferred-Date">
                     </div>
                     <div>
-                        <label for="">  Perferred Time    </label></br></br>
+                        <label for=""> Perferred Time </label></br></br>
                         <input type="text" name="Perferred-Time">
                     </div>
                     <input id="final" type="submit">
                     <i class="fa-solid fa-arrow-right" for="final"></i>
                 </form>
                 <div class="con-info">
-                    <h3 id="Contact">    Contact Info    </h3>
-                    <img src="./img/com-img.jpg" alt=""/>
-                    <h4>    Phone   </h4>
-                    <p>     678-9575-7474   </p>
-                    <h4>    Email Us    </h4>
-                    <p>     doc123@gmail.com    </p>
-                    <h4>    Our Location    </h4>
-                    <p>     Velachery, Chennai, Vijaya Nagar</p>
+                    <h3 id="Contact"> Contact Info </h3>
+                    <img src="./img/com-img.jpg" alt="" />
+                    <h4> Phone </h4>
+                    <p> 678-9575-7474 </p>
+                    <h4> Email Us </h4>
+                    <p> doc123@gmail.com </p>
+                    <h4> Our Location </h4>
+                    <p> Velachery, Chennai, Vijaya Nagar</p>
                 </div>
             </section>
         </div>
@@ -453,35 +491,35 @@
         <div class="final">
             <section>
                 <i class="fa-solid fa-flag"></i>
-                <p> ProHealth   </p>
+                <p> ProHealth </p>
             </section>
             <div>
                 <section>
-                    <h3>    ProHealth Medical & Healthcare center   </h3>
+                    <h3> ProHealth Medical & Healthcare center </h3>
                     <p>
-                        <span>  123 Anywhere any city 2025</span>
-                        <span>  2395-97-94-2594     </span>
-                        <span>  prohealth123@gmail.in   </span>
+                        <span> 123 Anywhere any city 2025</span>
+                        <span> 2395-97-94-2594 </span>
+                        <span> prohealth123@gmail.in </span>
                     </p>
                 </section>
                 <section>
                     <div>
-                        <p> About us     </p>
-                        <p> Department   </p>
-                        <p> Doctors      </p>
-                        <p> Services     </p>
+                        <p> About us </p>
+                        <p> Department </p>
+                        <p> Doctors </p>
+                        <p> Services </p>
                         <p> Appointments </p>
                     </div>
                     <div>
-                        <p> Blog         </p>
-                        <p> Contact us   </p>
-                        <p> FAQS         </p>
-                        <p> Services     </p>
+                        <p> Blog </p>
+                        <p> Contact us </p>
+                        <p> FAQS </p>
+                        <p> Services </p>
                         <p> Appointments </p>
                     </div>
                 </section>
                 <section>
-                    <h4 class="text-center">    Be Our Subscribes   </h4>
+                    <h4 class="text-center"> Be Our Subscribes </h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eius autem officia sunt ab itaque?
                     </p>
@@ -494,9 +532,10 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"-->
+    <script src="./script.js"></script>
 </body>
 
 </html>
